@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountCraft</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>CountCraft</h1>
+        <div class="input-container">
+            <textarea id="text-input" placeholder="Start typing or paste your text here..."></textarea>
+        </div>
+        <div class="stats-container">
+            <div class="stat-box">
+                <div class="stat-label">Words</div>
+                <div class="stat-value" id="word-count">0</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Characters</div>
+                <div class="stat-value" id="char-count">0</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Sentences</div>
+                <div class="stat-value" id="sentence-count">0</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Paragraphs</div>
+                <div class="stat-value" id="paragraph-count">0</div>
+            </div>
+        </div>
+        <div class="actions">
+            <button class="clear-btn" id="clear-btn">Clear Text</button>
+            <button class="copy-btn" id="copy-btn">Copy to Clipboard</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
