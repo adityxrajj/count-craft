@@ -15,7 +15,7 @@ CountCraft is a web-based tool for real-time text analysis. It provides word, ch
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/adityxrajj/CountCraft.git
+    git clone https://github.com/adityxrajj/count-craft.git
     ```
 
 ## Usage
