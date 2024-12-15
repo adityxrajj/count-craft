@@ -212,6 +212,22 @@ button:active {
     }
 }
 
+.developer-info {
+    font-family: "Poppins", sans-serif;
+    color: #555;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+a {
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+
 /* Custom scrollbar */
 textarea::-webkit-scrollbar {
     width: 8px;
