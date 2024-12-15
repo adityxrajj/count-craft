@@ -53,7 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         textInput.value = '';
 
-        // Animate the counters down to zero
         animateValue(wordCount, previousCounts.words, 0, 300);
         animateValue(charCount, previousCounts.chars, 0, 300);
         animateValue(sentenceCount, previousCounts.sentences, 0, 300);
